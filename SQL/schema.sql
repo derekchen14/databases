@@ -5,7 +5,7 @@ CREATE TABLE messages (
   id INT AUTO_INCREMENT,
   createdAt DATETIME DEFAULT CURRENT_TIMESTAMP,
   message MEDIUMTEXT,
-  roomID INT,
+  roomName varchar(20),
   userID INT,
   PRIMARY KEY (id)
 );
